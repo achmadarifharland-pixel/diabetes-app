@@ -31,4 +31,5 @@ if st.button("Prediksi"):
     if prediction == 1:
         st.error(f"⚠️ Terindikasi Diabetes (Probabilitas: {prob:.2f})")
     else:
+
         st.success(f"✅ Tidak Terindikasi Diabetes (Probabilitas: {prob:.2f})")
